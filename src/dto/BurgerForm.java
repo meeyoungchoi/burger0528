@@ -1,9 +1,15 @@
+package dto;
+
+import vo.Burger;
+
 public class BurgerForm {
     private static Integer id = 0;
     private String name;
     private Integer price;
 
+    public BurgerForm() {
 
+    }
 
 
     public BurgerForm(Integer idx2, String updateName, Integer updatePrice) {
